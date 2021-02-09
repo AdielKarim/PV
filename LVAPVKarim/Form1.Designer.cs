@@ -30,6 +30,7 @@
         {
             this.lblFormaUno = new System.Windows.Forms.Label();
             this.btnLlamarAformaDos = new System.Windows.Forms.Button();
+            this.btnLlamarAFormaTres = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblFormaUno
@@ -53,11 +54,22 @@
             this.btnLlamarAformaDos.UseVisualStyleBackColor = true;
             this.btnLlamarAformaDos.Click += new System.EventHandler(this.btnLlamarAformaDos_Click);
             // 
+            // btnLlamarAFormaTres
+            // 
+            this.btnLlamarAFormaTres.Location = new System.Drawing.Point(558, 318);
+            this.btnLlamarAFormaTres.Name = "btnLlamarAFormaTres";
+            this.btnLlamarAFormaTres.Size = new System.Drawing.Size(189, 30);
+            this.btnLlamarAFormaTres.TabIndex = 2;
+            this.btnLlamarAFormaTres.Text = "Llamar A Forma Tres";
+            this.btnLlamarAFormaTres.UseVisualStyleBackColor = true;
+            this.btnLlamarAFormaTres.Click += new System.EventHandler(this.btnLlamarAFormaTres_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLlamarAFormaTres);
             this.Controls.Add(this.btnLlamarAformaDos);
             this.Controls.Add(this.lblFormaUno);
             this.Name = "Form1";
@@ -71,6 +83,7 @@
 
         private System.Windows.Forms.Label lblFormaUno;
         private System.Windows.Forms.Button btnLlamarAformaDos;
+        private System.Windows.Forms.Button btnLlamarAFormaTres;
     }
 }
 

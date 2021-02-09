@@ -21,5 +21,11 @@ namespace LVAPVKarim
         {
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            FrmTres frmTres = new FrmTres();
+            frmTres.Show();
+        }
     }
 }

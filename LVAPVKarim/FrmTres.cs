@@ -10,23 +10,17 @@ using System.Windows.Forms;
 
 namespace LVAPVKarim
 {
-    public partial class Form1 : Form
+    public partial class FrmTres : Form
     {
-        public Form1()
+        public FrmTres()
         {
             InitializeComponent();
         }
 
-        private void btnLlamarAformaDos_Click(object sender, EventArgs e)
+        private void btnLlamarAFormaDos_Click(object sender, EventArgs e)
         {
             FrmDos frmDos = new FrmDos();
             frmDos.Show();
-        }
-
-        private void btnLlamarAFormaTres_Click(object sender, EventArgs e)
-        {
-            FrmTres frmTres = new FrmTres();
-            frmTres.Show();
         }
     }
 }
