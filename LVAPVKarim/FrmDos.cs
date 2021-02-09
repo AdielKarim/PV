@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace LVAPVKarim
 {
-    public partial class Form1 : Form
+    public partial class FrmDos : Form
     {
-        public Form1()
+        public FrmDos()
         {
             InitializeComponent();
         }
 
-        private void btnLlamarAformaDos_Click(object sender, EventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
-            FrmDos frmDos = new FrmDos();
-            frmDos.Show();
+            this.Close();
         }
     }
 }
