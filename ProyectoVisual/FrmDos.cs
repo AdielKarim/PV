@@ -34,8 +34,11 @@ namespace ProyectoVisual
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            frmVentanaUno frmVentanaUno = new frmVentanaUno();
-            frmVentanaUno.Show();
+            //frmVentanaUno frmVentanaUno = new frmVentanaUno();
+            //frmVentanaUno.Show();
+            
+            this.Close();
+            
         }
 
         private void rdbSi_CheckedChanged(object sender, EventArgs e)
@@ -47,6 +50,7 @@ namespace ProyectoVisual
         {
             FrmTres frmTres = new FrmTres();
             frmTres.Show();
+            
         }
     }
 }

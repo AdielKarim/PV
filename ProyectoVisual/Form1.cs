@@ -56,6 +56,9 @@ namespace ProyectoVisual
         {
             FrmDos frmDos = new FrmDos();
             frmDos.Show();
+            
+            
+
         }
     }
 }

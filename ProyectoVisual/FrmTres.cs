@@ -16,5 +16,21 @@ namespace ProyectoVisual
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Siguientes_Click(object sender, EventArgs e)
+        {
+            FrmCuatro frmCuatro = new FrmCuatro();
+            frmCuatro.Show();
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -37,28 +37,35 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.chcMasculino = new System.Windows.Forms.CheckBox();
             this.grpGenero = new System.Windows.Forms.GroupBox();
-            this.chcFemenino = new System.Windows.Forms.CheckBox();
             this.chcPrefieronoDecirlo = new System.Windows.Forms.CheckBox();
+            this.chcFemenino = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.lblHoyEstamosA = new System.Windows.Forms.Label();
+            this.lblFechadeHoy = new System.Windows.Forms.Label();
             this.lblEdad = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.grpEstadoCivil = new System.Windows.Forms.GroupBox();
+            this.chcViudo = new System.Windows.Forms.CheckBox();
             this.chcDivorciada = new System.Windows.Forms.CheckBox();
             this.chcSoltero = new System.Windows.Forms.CheckBox();
             this.chcCasado = new System.Windows.Forms.CheckBox();
-            this.chcViudo = new System.Windows.Forms.CheckBox();
             this.lblNumero = new System.Windows.Forms.Label();
             this.lblCorreoElectronico = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.grpDatosPersonales = new System.Windows.Forms.GroupBox();
             this.btnSiguiente = new System.Windows.Forms.Button();
+            this.lblUstedViveEn = new System.Windows.Forms.Label();
+            this.cmbEstados = new System.Windows.Forms.ComboBox();
+            this.lblVictima = new System.Windows.Forms.Label();
+            this.pnlSiNo = new System.Windows.Forms.Panel();
+            this.rdbNo = new System.Windows.Forms.RadioButton();
+            this.rdbSi = new System.Windows.Forms.RadioButton();
             this.grpGenero.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpEstadoCivil.SuspendLayout();
             this.grpDatosPersonales.SuspendLayout();
+            this.pnlSiNo.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -134,24 +141,13 @@
             this.grpGenero.Controls.Add(this.chcFemenino);
             this.grpGenero.Controls.Add(this.chcMasculino);
             this.grpGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpGenero.Location = new System.Drawing.Point(430, 90);
+            this.grpGenero.Location = new System.Drawing.Point(427, 40);
             this.grpGenero.Name = "grpGenero";
             this.grpGenero.Size = new System.Drawing.Size(152, 98);
             this.grpGenero.TabIndex = 7;
             this.grpGenero.TabStop = false;
             this.grpGenero.Text = "Genero";
             this.grpGenero.Enter += new System.EventHandler(this.grpGenero_Enter);
-            // 
-            // chcFemenino
-            // 
-            this.chcFemenino.AutoSize = true;
-            this.chcFemenino.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chcFemenino.Location = new System.Drawing.Point(6, 51);
-            this.chcFemenino.Name = "chcFemenino";
-            this.chcFemenino.Size = new System.Drawing.Size(93, 22);
-            this.chcFemenino.TabIndex = 8;
-            this.chcFemenino.Text = "Femenino";
-            this.chcFemenino.UseVisualStyleBackColor = true;
             // 
             // chcPrefieronoDecirlo
             // 
@@ -163,6 +159,17 @@
             this.chcPrefieronoDecirlo.TabIndex = 8;
             this.chcPrefieronoDecirlo.Text = "Prefiero no Decirlo";
             this.chcPrefieronoDecirlo.UseVisualStyleBackColor = true;
+            // 
+            // chcFemenino
+            // 
+            this.chcFemenino.AutoSize = true;
+            this.chcFemenino.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chcFemenino.Location = new System.Drawing.Point(6, 51);
+            this.chcFemenino.Name = "chcFemenino";
+            this.chcFemenino.Size = new System.Drawing.Size(93, 22);
+            this.chcFemenino.TabIndex = 8;
+            this.chcFemenino.Text = "Femenino";
+            this.chcFemenino.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -181,15 +188,15 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(208, 20);
             this.dateTimePicker1.TabIndex = 9;
             // 
-            // lblHoyEstamosA
+            // lblFechadeHoy
             // 
-            this.lblHoyEstamosA.AutoSize = true;
-            this.lblHoyEstamosA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoyEstamosA.Location = new System.Drawing.Point(461, 36);
-            this.lblHoyEstamosA.Name = "lblHoyEstamosA";
-            this.lblHoyEstamosA.Size = new System.Drawing.Size(113, 18);
-            this.lblHoyEstamosA.TabIndex = 10;
-            this.lblHoyEstamosA.Text = "Hoy estamos a:";
+            this.lblFechadeHoy.AutoSize = true;
+            this.lblFechadeHoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechadeHoy.Location = new System.Drawing.Point(470, 36);
+            this.lblFechadeHoy.Name = "lblFechadeHoy";
+            this.lblFechadeHoy.Size = new System.Drawing.Size(104, 18);
+            this.lblFechadeHoy.TabIndex = 10;
+            this.lblFechadeHoy.Text = "Fecha de Hoy:";
             // 
             // lblEdad
             // 
@@ -216,12 +223,23 @@
             this.grpEstadoCivil.Controls.Add(this.chcSoltero);
             this.grpEstadoCivil.Controls.Add(this.chcCasado);
             this.grpEstadoCivil.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpEstadoCivil.Location = new System.Drawing.Point(640, 81);
+            this.grpEstadoCivil.Location = new System.Drawing.Point(637, 46);
             this.grpEstadoCivil.Name = "grpEstadoCivil";
             this.grpEstadoCivil.Size = new System.Drawing.Size(119, 117);
             this.grpEstadoCivil.TabIndex = 13;
             this.grpEstadoCivil.TabStop = false;
             this.grpEstadoCivil.Text = "Estado Civil";
+            // 
+            // chcViudo
+            // 
+            this.chcViudo.AutoSize = true;
+            this.chcViudo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chcViudo.Location = new System.Drawing.Point(6, 89);
+            this.chcViudo.Name = "chcViudo";
+            this.chcViudo.Size = new System.Drawing.Size(82, 22);
+            this.chcViudo.TabIndex = 14;
+            this.chcViudo.Text = "Viudo(a)";
+            this.chcViudo.UseVisualStyleBackColor = true;
             // 
             // chcDivorciada
             // 
@@ -256,17 +274,6 @@
             this.chcCasado.TabIndex = 6;
             this.chcCasado.Text = "Casado(a)";
             this.chcCasado.UseVisualStyleBackColor = true;
-            // 
-            // chcViudo
-            // 
-            this.chcViudo.AutoSize = true;
-            this.chcViudo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chcViudo.Location = new System.Drawing.Point(6, 89);
-            this.chcViudo.Name = "chcViudo";
-            this.chcViudo.Size = new System.Drawing.Size(82, 22);
-            this.chcViudo.TabIndex = 14;
-            this.chcViudo.Text = "Viudo(a)";
-            this.chcViudo.UseVisualStyleBackColor = true;
             // 
             // lblNumero
             // 
@@ -307,7 +314,6 @@
             // 
             // grpDatosPersonales
             // 
-            this.grpDatosPersonales.Controls.Add(this.btnSiguiente);
             this.grpDatosPersonales.Controls.Add(this.lblNombre);
             this.grpDatosPersonales.Controls.Add(this.grpEstadoCivil);
             this.grpDatosPersonales.Controls.Add(this.textBox6);
@@ -325,29 +331,137 @@
             this.grpDatosPersonales.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpDatosPersonales.Location = new System.Drawing.Point(12, 88);
             this.grpDatosPersonales.Name = "grpDatosPersonales";
-            this.grpDatosPersonales.Size = new System.Drawing.Size(776, 360);
+            this.grpDatosPersonales.Size = new System.Drawing.Size(776, 251);
             this.grpDatosPersonales.TabIndex = 18;
             this.grpDatosPersonales.TabStop = false;
-            this.grpDatosPersonales.Text = "Datos Personales";
+            this.grpDatosPersonales.Text = "1. Datos Personales";
             this.grpDatosPersonales.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(631, 315);
+            this.btnSiguiente.Location = new System.Drawing.Point(699, 403);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(128, 35);
+            this.btnSiguiente.Size = new System.Drawing.Size(89, 35);
             this.btnSiguiente.TabIndex = 18;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
+            // 
+            // lblUstedViveEn
+            // 
+            this.lblUstedViveEn.AutoSize = true;
+            this.lblUstedViveEn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUstedViveEn.Location = new System.Drawing.Point(18, 342);
+            this.lblUstedViveEn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblUstedViveEn.Name = "lblUstedViveEn";
+            this.lblUstedViveEn.Size = new System.Drawing.Size(120, 18);
+            this.lblUstedViveEn.TabIndex = 19;
+            this.lblUstedViveEn.Text = "2. Usted Vive En:";
+            // 
+            // cmbEstados
+            // 
+            this.cmbEstados.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbEstados.FormattingEnabled = true;
+            this.cmbEstados.Items.AddRange(new object[] {
+            "Aguascalientes",
+            "Baja California",
+            "Baja California Sur",
+            "Campeche",
+            "Coahuila",
+            "Colima",
+            "Chiapas",
+            "Chihuahua",
+            "Distrito Federal",
+            "Durango",
+            "Guanajuato",
+            "Guerrero",
+            "Hidalgo",
+            "Jalisco",
+            "Estado de México",
+            "Michoacán",
+            "Morelos",
+            "Nayarit",
+            "Nuevo León",
+            "Oaxaca",
+            "Puebla",
+            "Queretaro",
+            "Quintana Roo",
+            "San Luis Potosi",
+            "Sinaloa",
+            "Sonora",
+            "Tabasco",
+            "Tamaulipas",
+            "Tlaxcala",
+            "Veracruz",
+            "Yucatán",
+            "Zacatecas"});
+            this.cmbEstados.Location = new System.Drawing.Point(142, 341);
+            this.cmbEstados.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbEstados.Name = "cmbEstados";
+            this.cmbEstados.Size = new System.Drawing.Size(118, 24);
+            this.cmbEstados.TabIndex = 20;
+            this.cmbEstados.Text = "Aguascalientes";
+            // 
+            // lblVictima
+            // 
+            this.lblVictima.AutoSize = true;
+            this.lblVictima.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVictima.Location = new System.Drawing.Point(18, 374);
+            this.lblVictima.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblVictima.Name = "lblVictima";
+            this.lblVictima.Size = new System.Drawing.Size(577, 18);
+            this.lblVictima.TabIndex = 21;
+            this.lblVictima.Text = "3. Este año ¿Usted o algun familiar o conocido ha sido victima de un delito en Mé" +
+    "xico?";
+            // 
+            // pnlSiNo
+            // 
+            this.pnlSiNo.Controls.Add(this.rdbNo);
+            this.pnlSiNo.Controls.Add(this.rdbSi);
+            this.pnlSiNo.Location = new System.Drawing.Point(21, 396);
+            this.pnlSiNo.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlSiNo.Name = "pnlSiNo";
+            this.pnlSiNo.Size = new System.Drawing.Size(110, 50);
+            this.pnlSiNo.TabIndex = 23;
+            // 
+            // rdbNo
+            // 
+            this.rdbNo.AutoSize = true;
+            this.rdbNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbNo.Location = new System.Drawing.Point(4, 25);
+            this.rdbNo.Margin = new System.Windows.Forms.Padding(2);
+            this.rdbNo.Name = "rdbNo";
+            this.rdbNo.Size = new System.Drawing.Size(44, 20);
+            this.rdbNo.TabIndex = 7;
+            this.rdbNo.TabStop = true;
+            this.rdbNo.Text = "No";
+            this.rdbNo.UseVisualStyleBackColor = true;
+            // 
+            // rdbSi
+            // 
+            this.rdbSi.AutoSize = true;
+            this.rdbSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbSi.Location = new System.Drawing.Point(4, 2);
+            this.rdbSi.Margin = new System.Windows.Forms.Padding(2);
+            this.rdbSi.Name = "rdbSi";
+            this.rdbSi.Size = new System.Drawing.Size(38, 20);
+            this.rdbSi.TabIndex = 6;
+            this.rdbSi.TabStop = true;
+            this.rdbSi.Text = "Si";
+            this.rdbSi.UseVisualStyleBackColor = true;
             // 
             // frmVentanaUno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pnlSiNo);
+            this.Controls.Add(this.lblVictima);
+            this.Controls.Add(this.cmbEstados);
+            this.Controls.Add(this.lblUstedViveEn);
+            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.grpDatosPersonales);
-            this.Controls.Add(this.lblHoyEstamosA);
+            this.Controls.Add(this.lblFechadeHoy);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.Black;
@@ -362,6 +476,8 @@
             this.grpEstadoCivil.PerformLayout();
             this.grpDatosPersonales.ResumeLayout(false);
             this.grpDatosPersonales.PerformLayout();
+            this.pnlSiNo.ResumeLayout(false);
+            this.pnlSiNo.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -381,7 +497,7 @@
         private System.Windows.Forms.CheckBox chcFemenino;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label lblHoyEstamosA;
+        private System.Windows.Forms.Label lblFechadeHoy;
         private System.Windows.Forms.Label lblEdad;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.GroupBox grpEstadoCivil;
@@ -395,6 +511,12 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.GroupBox grpDatosPersonales;
         private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.Label lblUstedViveEn;
+        private System.Windows.Forms.ComboBox cmbEstados;
+        private System.Windows.Forms.Label lblVictima;
+        private System.Windows.Forms.Panel pnlSiNo;
+        private System.Windows.Forms.RadioButton rdbNo;
+        private System.Windows.Forms.RadioButton rdbSi;
     }
 }
 
