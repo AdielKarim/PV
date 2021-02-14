@@ -16,5 +16,33 @@ namespace ProyectoVisual
         {
             InitializeComponent();
         }
+
+        private void lblAuxilioALaPolicia_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbBien_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbMal_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            FrmSeis frmSeis = new FrmSeis();
+            frmSeis.Show();
+
+
+        }
     }
 }
