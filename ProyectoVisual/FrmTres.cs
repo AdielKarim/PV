@@ -26,6 +26,7 @@ namespace ProyectoVisual
         {
             FrmCuatro frmCuatro = new FrmCuatro();
             frmCuatro.Show();
+            prbAumento.Increment(60);
         }
 
         private void btnAtras_Click(object sender, EventArgs e)

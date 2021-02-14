@@ -61,6 +61,7 @@
             this.pnlSiNo = new System.Windows.Forms.Panel();
             this.rdbNo = new System.Windows.Forms.RadioButton();
             this.rdbSi = new System.Windows.Forms.RadioButton();
+            this.prbAumento = new System.Windows.Forms.ProgressBar();
             this.grpGenero.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpEstadoCivil.SuspendLayout();
@@ -450,11 +451,20 @@
             this.rdbSi.Text = "Si";
             this.rdbSi.UseVisualStyleBackColor = true;
             // 
+            // prbAumento
+            // 
+            this.prbAumento.Location = new System.Drawing.Point(506, 7);
+            this.prbAumento.Name = "prbAumento";
+            this.prbAumento.Size = new System.Drawing.Size(282, 23);
+            this.prbAumento.TabIndex = 24;
+            this.prbAumento.Click += new System.EventHandler(this.progressBar1_Click);
+            // 
             // frmVentanaUno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.prbAumento);
             this.Controls.Add(this.pnlSiNo);
             this.Controls.Add(this.lblVictima);
             this.Controls.Add(this.cmbEstados);
@@ -517,6 +527,7 @@
         private System.Windows.Forms.Panel pnlSiNo;
         private System.Windows.Forms.RadioButton rdbNo;
         private System.Windows.Forms.RadioButton rdbSi;
+        private System.Windows.Forms.ProgressBar prbAumento;
     }
 }
 

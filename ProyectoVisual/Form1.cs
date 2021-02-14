@@ -56,8 +56,13 @@ namespace ProyectoVisual
         {
             FrmDos frmDos = new FrmDos();
             frmDos.Show();
-            
-            
+
+            prbAumento.Increment(20);
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -43,11 +43,12 @@
             this.rdbSi = new System.Windows.Forms.RadioButton();
             this.lblOtraAutoridad = new System.Windows.Forms.Label();
             this.txtRespuestaAutoridad = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblFechadeHoy = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnAtras = new System.Windows.Forms.Button();
             this.Siguientes = new System.Windows.Forms.Button();
+            this.prbAumento = new System.Windows.Forms.ProgressBar();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.pnlSiNo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -252,22 +253,11 @@
             this.txtRespuestaAutoridad.Size = new System.Drawing.Size(235, 20);
             this.txtRespuestaAutoridad.TabIndex = 26;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ProyectoVisual.Properties.Resources._845eaab6_1665_4fcd_90c6_dd832542c439;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(395, 70);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // lblFechadeHoy
             // 
             this.lblFechadeHoy.AutoSize = true;
             this.lblFechadeHoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechadeHoy.Location = new System.Drawing.Point(470, 32);
+            this.lblFechadeHoy.Location = new System.Drawing.Point(470, 43);
             this.lblFechadeHoy.Name = "lblFechadeHoy";
             this.lblFechadeHoy.Size = new System.Drawing.Size(104, 18);
             this.lblFechadeHoy.TabIndex = 30;
@@ -275,7 +265,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(580, 32);
+            this.dateTimePicker1.Location = new System.Drawing.Point(580, 41);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(208, 20);
             this.dateTimePicker1.TabIndex = 29;
@@ -300,11 +290,30 @@
             this.Siguientes.UseVisualStyleBackColor = true;
             this.Siguientes.Click += new System.EventHandler(this.Siguientes_Click);
             // 
+            // prbAumento
+            // 
+            this.prbAumento.Location = new System.Drawing.Point(506, 12);
+            this.prbAumento.Name = "prbAumento";
+            this.prbAumento.Size = new System.Drawing.Size(282, 23);
+            this.prbAumento.TabIndex = 33;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProyectoVisual.Properties.Resources._845eaab6_1665_4fcd_90c6_dd832542c439;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(395, 70);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // FrmTres
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.prbAumento);
             this.Controls.Add(this.Siguientes);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.lblFechadeHoy);
@@ -352,5 +361,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnAtras;
         private System.Windows.Forms.Button Siguientes;
+        private System.Windows.Forms.ProgressBar prbAumento;
     }
 }

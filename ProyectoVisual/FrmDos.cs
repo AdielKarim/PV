@@ -50,7 +50,8 @@ namespace ProyectoVisual
         {
             FrmTres frmTres = new FrmTres();
             frmTres.Show();
-            
+
+            prbAumento.Increment(40);
         }
     }
 }

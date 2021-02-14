@@ -51,6 +51,7 @@
             this.rdbTreintaAños = new System.Windows.Forms.RadioButton();
             this.rdbQuinceAños = new System.Windows.Forms.RadioButton();
             this.rdbSeisAños = new System.Windows.Forms.RadioButton();
+            this.prbAumento = new System.Windows.Forms.ProgressBar();
             this.pnlAñoQueSeCometioDelito.SuspendLayout();
             this.pnlVictima.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -330,11 +331,19 @@
             this.rdbSeisAños.Text = "Menor a 6 Años";
             this.rdbSeisAños.UseVisualStyleBackColor = true;
             // 
+            // prbAumento
+            // 
+            this.prbAumento.Location = new System.Drawing.Point(506, 10);
+            this.prbAumento.Name = "prbAumento";
+            this.prbAumento.Size = new System.Drawing.Size(282, 23);
+            this.prbAumento.TabIndex = 30;
+            // 
             // FrmDos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.prbAumento);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblEdadDeLaVictima);
             this.Controls.Add(this.lblFechadeHoy);
@@ -387,5 +396,6 @@
         private System.Windows.Forms.RadioButton rdbTreintaAños;
         private System.Windows.Forms.RadioButton rdbQuinceAños;
         private System.Windows.Forms.RadioButton rdbSeisAños;
+        private System.Windows.Forms.ProgressBar prbAumento;
     }
 }
