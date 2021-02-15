@@ -1,6 +1,6 @@
 ﻿namespace ProyectoVisual
 {
-    partial class FrmSeis
+    partial class frmVentanaSeis
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVentanaSeis));
             this.pctFormaCinco = new System.Windows.Forms.PictureBox();
             this.lblFechadeHoy = new System.Windows.Forms.Label();
             this.prbAumento = new System.Windows.Forms.ProgressBar();
@@ -49,7 +50,7 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.btnAtras = new System.Windows.Forms.Button();
-            this.btnSiguiente = new System.Windows.Forms.Button();
+            this.btnTerminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctFormaCinco)).BeginInit();
             this.pnlPreguntaDieciocho.SuspendLayout();
             this.pnlPreguntaDieciNueve.SuspendLayout();
@@ -59,10 +60,9 @@
             // pctFormaCinco
             // 
             this.pctFormaCinco.Image = global::ProyectoVisual.Properties.Resources._845eaab6_1665_4fcd_90c6_dd832542c439;
-            this.pctFormaCinco.Location = new System.Drawing.Point(13, 13);
-            this.pctFormaCinco.Margin = new System.Windows.Forms.Padding(4);
+            this.pctFormaCinco.Location = new System.Drawing.Point(10, 11);
             this.pctFormaCinco.Name = "pctFormaCinco";
-            this.pctFormaCinco.Size = new System.Drawing.Size(527, 86);
+            this.pctFormaCinco.Size = new System.Drawing.Size(395, 70);
             this.pctFormaCinco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctFormaCinco.TabIndex = 31;
             this.pctFormaCinco.TabStop = false;
@@ -71,59 +71,55 @@
             // 
             this.lblFechadeHoy.AutoSize = true;
             this.lblFechadeHoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechadeHoy.Location = new System.Drawing.Point(640, 54);
-            this.lblFechadeHoy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFechadeHoy.Location = new System.Drawing.Point(480, 44);
             this.lblFechadeHoy.Name = "lblFechadeHoy";
-            this.lblFechadeHoy.Size = new System.Drawing.Size(135, 24);
+            this.lblFechadeHoy.Size = new System.Drawing.Size(104, 18);
             this.lblFechadeHoy.TabIndex = 42;
             this.lblFechadeHoy.Text = "Fecha de Hoy:";
             // 
             // prbAumento
             // 
-            this.prbAumento.Location = new System.Drawing.Point(678, 13);
-            this.prbAumento.Margin = new System.Windows.Forms.Padding(4);
+            this.prbAumento.Location = new System.Drawing.Point(508, 11);
             this.prbAumento.Name = "prbAumento";
-            this.prbAumento.Size = new System.Drawing.Size(376, 28);
+            this.prbAumento.Size = new System.Drawing.Size(282, 23);
             this.prbAumento.TabIndex = 43;
+            this.prbAumento.Click += new System.EventHandler(this.prbAumento_Click);
             // 
             // dttFormaCinco
             // 
-            this.dttFormaCinco.Location = new System.Drawing.Point(778, 54);
-            this.dttFormaCinco.Margin = new System.Windows.Forms.Padding(4);
+            this.dttFormaCinco.Location = new System.Drawing.Point(584, 44);
             this.dttFormaCinco.Name = "dttFormaCinco";
-            this.dttFormaCinco.Size = new System.Drawing.Size(276, 22);
+            this.dttFormaCinco.Size = new System.Drawing.Size(208, 20);
             this.dttFormaCinco.TabIndex = 44;
             // 
             // lblSeguridadEnSuMunicipio
             // 
             this.lblSeguridadEnSuMunicipio.AutoSize = true;
             this.lblSeguridadEnSuMunicipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeguridadEnSuMunicipio.Location = new System.Drawing.Point(9, 118);
-            this.lblSeguridadEnSuMunicipio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSeguridadEnSuMunicipio.Location = new System.Drawing.Point(7, 96);
             this.lblSeguridadEnSuMunicipio.Name = "lblSeguridadEnSuMunicipio";
-            this.lblSeguridadEnSuMunicipio.Size = new System.Drawing.Size(430, 24);
+            this.lblSeguridadEnSuMunicipio.Size = new System.Drawing.Size(336, 18);
             this.lblSeguridadEnSuMunicipio.TabIndex = 45;
             this.lblSeguridadEnSuMunicipio.Text = "18. En el último año, la seguridad en su Estado ha";
             // 
             // pnlPreguntaDieciocho
             // 
+            this.pnlPreguntaDieciocho.BackColor = System.Drawing.Color.White;
             this.pnlPreguntaDieciocho.Controls.Add(this.rdbMejorado);
             this.pnlPreguntaDieciocho.Controls.Add(this.rdbIgual);
             this.pnlPreguntaDieciocho.Controls.Add(this.rdbEmpeorado);
-            this.pnlPreguntaDieciocho.Location = new System.Drawing.Point(13, 146);
-            this.pnlPreguntaDieciocho.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlPreguntaDieciocho.Location = new System.Drawing.Point(10, 119);
             this.pnlPreguntaDieciocho.Name = "pnlPreguntaDieciocho";
-            this.pnlPreguntaDieciocho.Size = new System.Drawing.Size(141, 99);
+            this.pnlPreguntaDieciocho.Size = new System.Drawing.Size(106, 80);
             this.pnlPreguntaDieciocho.TabIndex = 46;
             // 
             // rdbMejorado
             // 
             this.rdbMejorado.AutoSize = true;
             this.rdbMejorado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMejorado.Location = new System.Drawing.Point(4, 11);
-            this.rdbMejorado.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMejorado.Location = new System.Drawing.Point(3, 9);
             this.rdbMejorado.Name = "rdbMejorado";
-            this.rdbMejorado.Size = new System.Drawing.Size(99, 24);
+            this.rdbMejorado.Size = new System.Drawing.Size(84, 20);
             this.rdbMejorado.TabIndex = 34;
             this.rdbMejorado.TabStop = true;
             this.rdbMejorado.Text = "Mejorado";
@@ -133,10 +129,9 @@
             // 
             this.rdbIgual.AutoSize = true;
             this.rdbIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbIgual.Location = new System.Drawing.Point(3, 69);
-            this.rdbIgual.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbIgual.Location = new System.Drawing.Point(2, 56);
             this.rdbIgual.Name = "rdbIgual";
-            this.rdbIgual.Size = new System.Drawing.Size(104, 24);
+            this.rdbIgual.Size = new System.Drawing.Size(85, 20);
             this.rdbIgual.TabIndex = 36;
             this.rdbIgual.TabStop = true;
             this.rdbIgual.Text = "Está Igual";
@@ -146,10 +141,9 @@
             // 
             this.rdbEmpeorado.AutoSize = true;
             this.rdbEmpeorado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbEmpeorado.Location = new System.Drawing.Point(3, 39);
-            this.rdbEmpeorado.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbEmpeorado.Location = new System.Drawing.Point(2, 32);
             this.rdbEmpeorado.Name = "rdbEmpeorado";
-            this.rdbEmpeorado.Size = new System.Drawing.Size(115, 24);
+            this.rdbEmpeorado.Size = new System.Drawing.Size(98, 20);
             this.rdbEmpeorado.TabIndex = 35;
             this.rdbEmpeorado.TabStop = true;
             this.rdbEmpeorado.Text = "Empeorado";
@@ -159,33 +153,31 @@
             // 
             this.lblSeguroMexico.AutoSize = true;
             this.lblSeguroMexico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeguroMexico.Location = new System.Drawing.Point(9, 258);
-            this.lblSeguroMexico.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSeguroMexico.Location = new System.Drawing.Point(7, 210);
             this.lblSeguroMexico.Name = "lblSeguroMexico";
-            this.lblSeguroMexico.Size = new System.Drawing.Size(338, 24);
+            this.lblSeguroMexico.Size = new System.Drawing.Size(265, 18);
             this.lblSeguroMexico.TabIndex = 47;
             this.lblSeguroMexico.Text = "19. ¿Que tan seguro se siente Mexico?";
             // 
             // pnlPreguntaDieciNueve
             // 
+            this.pnlPreguntaDieciNueve.BackColor = System.Drawing.Color.White;
             this.pnlPreguntaDieciNueve.Controls.Add(this.rdbMuySeguro);
             this.pnlPreguntaDieciNueve.Controls.Add(this.rbdMuyInseguro);
             this.pnlPreguntaDieciNueve.Controls.Add(this.rdbInseguro);
             this.pnlPreguntaDieciNueve.Controls.Add(this.rdbSeguro);
-            this.pnlPreguntaDieciNueve.Location = new System.Drawing.Point(13, 286);
-            this.pnlPreguntaDieciNueve.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlPreguntaDieciNueve.Location = new System.Drawing.Point(10, 232);
             this.pnlPreguntaDieciNueve.Name = "pnlPreguntaDieciNueve";
-            this.pnlPreguntaDieciNueve.Size = new System.Drawing.Size(141, 132);
+            this.pnlPreguntaDieciNueve.Size = new System.Drawing.Size(106, 107);
             this.pnlPreguntaDieciNueve.TabIndex = 48;
             // 
             // rdbMuySeguro
             // 
             this.rdbMuySeguro.AutoSize = true;
             this.rdbMuySeguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMuySeguro.Location = new System.Drawing.Point(4, 11);
-            this.rdbMuySeguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMuySeguro.Location = new System.Drawing.Point(3, 9);
             this.rdbMuySeguro.Name = "rdbMuySeguro";
-            this.rdbMuySeguro.Size = new System.Drawing.Size(119, 24);
+            this.rdbMuySeguro.Size = new System.Drawing.Size(98, 20);
             this.rdbMuySeguro.TabIndex = 34;
             this.rdbMuySeguro.TabStop = true;
             this.rdbMuySeguro.Text = "Muy Seguro";
@@ -195,10 +187,9 @@
             // 
             this.rbdMuyInseguro.AutoSize = true;
             this.rbdMuyInseguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbdMuyInseguro.Location = new System.Drawing.Point(3, 98);
-            this.rbdMuyInseguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rbdMuyInseguro.Location = new System.Drawing.Point(2, 80);
             this.rbdMuyInseguro.Name = "rbdMuyInseguro";
-            this.rbdMuyInseguro.Size = new System.Drawing.Size(130, 24);
+            this.rbdMuyInseguro.Size = new System.Drawing.Size(106, 20);
             this.rbdMuyInseguro.TabIndex = 37;
             this.rbdMuyInseguro.TabStop = true;
             this.rbdMuyInseguro.Text = "Muy Inseguro";
@@ -208,10 +199,9 @@
             // 
             this.rdbInseguro.AutoSize = true;
             this.rdbInseguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbInseguro.Location = new System.Drawing.Point(3, 69);
-            this.rdbInseguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbInseguro.Location = new System.Drawing.Point(2, 56);
             this.rdbInseguro.Name = "rdbInseguro";
-            this.rdbInseguro.Size = new System.Drawing.Size(94, 24);
+            this.rdbInseguro.Size = new System.Drawing.Size(78, 20);
             this.rdbInseguro.TabIndex = 36;
             this.rdbInseguro.TabStop = true;
             this.rdbInseguro.Text = "Inseguro";
@@ -221,10 +211,9 @@
             // 
             this.rdbSeguro.AutoSize = true;
             this.rdbSeguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbSeguro.Location = new System.Drawing.Point(3, 39);
-            this.rdbSeguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbSeguro.Location = new System.Drawing.Point(2, 32);
             this.rdbSeguro.Name = "rdbSeguro";
-            this.rdbSeguro.Size = new System.Drawing.Size(83, 24);
+            this.rdbSeguro.Size = new System.Drawing.Size(70, 20);
             this.rdbSeguro.TabIndex = 35;
             this.rdbSeguro.TabStop = true;
             this.rdbSeguro.Text = "Seguro";
@@ -234,32 +223,30 @@
             // 
             this.lblSeguridadMexicoUno.AutoSize = true;
             this.lblSeguridadMexicoUno.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeguridadMexicoUno.Location = new System.Drawing.Point(9, 422);
-            this.lblSeguridadMexicoUno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSeguridadMexicoUno.Location = new System.Drawing.Point(7, 343);
             this.lblSeguridadMexicoUno.Name = "lblSeguridadMexicoUno";
-            this.lblSeguridadMexicoUno.Size = new System.Drawing.Size(434, 24);
+            this.lblSeguridadMexicoUno.Size = new System.Drawing.Size(337, 18);
             this.lblSeguridadMexicoUno.TabIndex = 49;
-            this.lblSeguridadMexicoUno.Text = "18. En el último año, la seguridad en su México ha";
+            this.lblSeguridadMexicoUno.Text = "20. En el último año, la seguridad en su México ha";
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.radioButton3);
-            this.panel1.Location = new System.Drawing.Point(13, 450);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(10, 366);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(141, 99);
+            this.panel1.Size = new System.Drawing.Size(106, 80);
             this.panel1.TabIndex = 47;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(4, 11);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton1.Location = new System.Drawing.Point(3, 9);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(99, 24);
+            this.radioButton1.Size = new System.Drawing.Size(84, 20);
             this.radioButton1.TabIndex = 34;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Mejorado";
@@ -269,10 +256,9 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(3, 69);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton2.Location = new System.Drawing.Point(2, 56);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(104, 24);
+            this.radioButton2.Size = new System.Drawing.Size(85, 20);
             this.radioButton2.TabIndex = 36;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Está Igual";
@@ -282,10 +268,9 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(3, 39);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton3.Location = new System.Drawing.Point(2, 32);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(115, 24);
+            this.radioButton3.Size = new System.Drawing.Size(98, 20);
             this.radioButton3.TabIndex = 35;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Empeorado";
@@ -293,30 +278,31 @@
             // 
             // btnAtras
             // 
-            this.btnAtras.Location = new System.Drawing.Point(808, 498);
-            this.btnAtras.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAtras.Location = new System.Drawing.Point(606, 405);
             this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Size = new System.Drawing.Size(119, 43);
+            this.btnAtras.Size = new System.Drawing.Size(89, 35);
             this.btnAtras.TabIndex = 51;
             this.btnAtras.Text = "Atras";
             this.btnAtras.UseVisualStyleBackColor = true;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
-            // btnSiguiente
+            // btnTerminar
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(935, 498);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(119, 43);
-            this.btnSiguiente.TabIndex = 52;
-            this.btnSiguiente.Text = "Siguiente";
-            this.btnSiguiente.UseVisualStyleBackColor = true;
+            this.btnTerminar.Location = new System.Drawing.Point(701, 405);
+            this.btnTerminar.Name = "btnTerminar";
+            this.btnTerminar.Size = new System.Drawing.Size(89, 35);
+            this.btnTerminar.TabIndex = 52;
+            this.btnTerminar.Text = "Terminar";
+            this.btnTerminar.UseVisualStyleBackColor = true;
+            this.btnTerminar.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
-            // FrmSeis
+            // frmVentanaSeis
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.btnSiguiente);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTerminar);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblSeguridadMexicoUno);
@@ -328,8 +314,10 @@
             this.Controls.Add(this.prbAumento);
             this.Controls.Add(this.lblFechadeHoy);
             this.Controls.Add(this.pctFormaCinco);
-            this.Name = "FrmSeis";
-            this.Text = "FrmSeis";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "frmVentanaSeis";
+            this.Text = "Formulario de Inseguridad";
             ((System.ComponentModel.ISupportInitialize)(this.pctFormaCinco)).EndInit();
             this.pnlPreguntaDieciocho.ResumeLayout(false);
             this.pnlPreguntaDieciocho.PerformLayout();
@@ -365,6 +353,6 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Button btnAtras;
-        private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.Button btnTerminar;
     }
 }

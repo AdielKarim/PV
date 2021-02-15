@@ -1,6 +1,6 @@
 ﻿namespace ProyectoVisual
 {
-    partial class FrmDos
+    partial class frmVentanaDos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVentanaDos));
             this.lblTipoDeDelito = new System.Windows.Forms.Label();
             this.cmbTipoDeDelito = new System.Windows.Forms.ComboBox();
             this.lblAñoDelito = new System.Windows.Forms.Label();
@@ -203,6 +204,7 @@
             // 
             // pnlAñoQueSeCometioDelito
             // 
+            this.pnlAñoQueSeCometioDelito.BackColor = System.Drawing.Color.White;
             this.pnlAñoQueSeCometioDelito.Controls.Add(this.rdbEsteAño);
             this.pnlAñoQueSeCometioDelito.Controls.Add(this.rdbElAñoPasado);
             this.pnlAñoQueSeCometioDelito.Controls.Add(this.rdbHaceMasDeDosAños);
@@ -214,6 +216,7 @@
             // 
             // pnlVictima
             // 
+            this.pnlVictima.BackColor = System.Drawing.Color.White;
             this.pnlVictima.Controls.Add(this.rdbHombre);
             this.pnlVictima.Controls.Add(this.rdbMujer);
             this.pnlVictima.Location = new System.Drawing.Point(16, 291);
@@ -261,6 +264,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.rdbMasDeSesentaAños);
             this.panel1.Controls.Add(this.rdbCincuentaAños);
             this.panel1.Controls.Add(this.rdbTreintaAños);
@@ -337,11 +341,13 @@
             this.prbAumento.Name = "prbAumento";
             this.prbAumento.Size = new System.Drawing.Size(282, 23);
             this.prbAumento.TabIndex = 30;
+            this.prbAumento.Click += new System.EventHandler(this.prbAumento_Click);
             // 
-            // FrmDos
+            // frmVentanaDos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.prbAumento);
             this.Controls.Add(this.panel1);
@@ -357,9 +363,10 @@
             this.Controls.Add(this.lblAñoDelito);
             this.Controls.Add(this.cmbTipoDeDelito);
             this.Controls.Add(this.lblTipoDeDelito);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "FrmDos";
-            this.Text = "FrmDos";
+            this.Name = "frmVentanaDos";
+            this.Text = "Formulario de Inseguridad";
             this.pnlAñoQueSeCometioDelito.ResumeLayout(false);
             this.pnlAñoQueSeCometioDelito.PerformLayout();
             this.pnlVictima.ResumeLayout(false);

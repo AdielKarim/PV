@@ -1,6 +1,6 @@
 ﻿namespace ProyectoVisual
 {
-    partial class FrmCinco
+    partial class frmVentanaCinco
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVentanaCinco));
             this.pctFormaCinco = new System.Windows.Forms.PictureBox();
             this.dttFormaCinco = new System.Windows.Forms.DateTimePicker();
             this.prbAumento = new System.Windows.Forms.ProgressBar();
@@ -61,38 +62,35 @@
             // pctFormaCinco
             // 
             this.pctFormaCinco.Image = global::ProyectoVisual.Properties.Resources._845eaab6_1665_4fcd_90c6_dd832542c439;
-            this.pctFormaCinco.Location = new System.Drawing.Point(13, 13);
-            this.pctFormaCinco.Margin = new System.Windows.Forms.Padding(4);
+            this.pctFormaCinco.Location = new System.Drawing.Point(10, 11);
             this.pctFormaCinco.Name = "pctFormaCinco";
-            this.pctFormaCinco.Size = new System.Drawing.Size(527, 86);
+            this.pctFormaCinco.Size = new System.Drawing.Size(395, 70);
             this.pctFormaCinco.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctFormaCinco.TabIndex = 30;
             this.pctFormaCinco.TabStop = false;
             // 
             // dttFormaCinco
             // 
-            this.dttFormaCinco.Location = new System.Drawing.Point(778, 49);
-            this.dttFormaCinco.Margin = new System.Windows.Forms.Padding(4);
+            this.dttFormaCinco.Location = new System.Drawing.Point(584, 40);
             this.dttFormaCinco.Name = "dttFormaCinco";
-            this.dttFormaCinco.Size = new System.Drawing.Size(276, 22);
+            this.dttFormaCinco.Size = new System.Drawing.Size(208, 20);
             this.dttFormaCinco.TabIndex = 32;
             // 
             // prbAumento
             // 
-            this.prbAumento.Location = new System.Drawing.Point(678, 13);
-            this.prbAumento.Margin = new System.Windows.Forms.Padding(4);
+            this.prbAumento.Location = new System.Drawing.Point(508, 11);
             this.prbAumento.Name = "prbAumento";
-            this.prbAumento.Size = new System.Drawing.Size(376, 28);
+            this.prbAumento.Size = new System.Drawing.Size(282, 23);
             this.prbAumento.TabIndex = 40;
+            this.prbAumento.Click += new System.EventHandler(this.prbAumento_Click);
             // 
             // lblFechadeHoy
             // 
             this.lblFechadeHoy.AutoSize = true;
             this.lblFechadeHoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechadeHoy.Location = new System.Drawing.Point(635, 49);
-            this.lblFechadeHoy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFechadeHoy.Location = new System.Drawing.Point(476, 40);
             this.lblFechadeHoy.Name = "lblFechadeHoy";
-            this.lblFechadeHoy.Size = new System.Drawing.Size(135, 24);
+            this.lblFechadeHoy.Size = new System.Drawing.Size(104, 18);
             this.lblFechadeHoy.TabIndex = 41;
             this.lblFechadeHoy.Text = "Fecha de Hoy:";
             // 
@@ -100,34 +98,32 @@
             // 
             this.lblQueTanSeguroSeSiente.AutoSize = true;
             this.lblQueTanSeguroSeSiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQueTanSeguroSeSiente.Location = new System.Drawing.Point(9, 116);
-            this.lblQueTanSeguroSeSiente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQueTanSeguroSeSiente.Location = new System.Drawing.Point(7, 94);
             this.lblQueTanSeguroSeSiente.Name = "lblQueTanSeguroSeSiente";
-            this.lblQueTanSeguroSeSiente.Size = new System.Drawing.Size(410, 24);
+            this.lblQueTanSeguroSeSiente.Size = new System.Drawing.Size(320, 18);
             this.lblQueTanSeguroSeSiente.TabIndex = 42;
             this.lblQueTanSeguroSeSiente.Text = "15. ¿Que tan seguro se siente en su municipio?";
             this.lblQueTanSeguroSeSiente.Click += new System.EventHandler(this.lblAuxilioALaPolicia_Click);
             // 
             // pnlPreguntaQuince
             // 
+            this.pnlPreguntaQuince.BackColor = System.Drawing.Color.White;
             this.pnlPreguntaQuince.Controls.Add(this.rdbMuySeguro);
             this.pnlPreguntaQuince.Controls.Add(this.rbdMuyInseguro);
             this.pnlPreguntaQuince.Controls.Add(this.rdbInseguro);
             this.pnlPreguntaQuince.Controls.Add(this.rdbSeguro);
-            this.pnlPreguntaQuince.Location = new System.Drawing.Point(26, 144);
-            this.pnlPreguntaQuince.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlPreguntaQuince.Location = new System.Drawing.Point(20, 117);
             this.pnlPreguntaQuince.Name = "pnlPreguntaQuince";
-            this.pnlPreguntaQuince.Size = new System.Drawing.Size(141, 132);
+            this.pnlPreguntaQuince.Size = new System.Drawing.Size(106, 107);
             this.pnlPreguntaQuince.TabIndex = 43;
             // 
             // rdbMuySeguro
             // 
             this.rdbMuySeguro.AutoSize = true;
             this.rdbMuySeguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMuySeguro.Location = new System.Drawing.Point(4, 11);
-            this.rdbMuySeguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMuySeguro.Location = new System.Drawing.Point(3, 9);
             this.rdbMuySeguro.Name = "rdbMuySeguro";
-            this.rdbMuySeguro.Size = new System.Drawing.Size(119, 24);
+            this.rdbMuySeguro.Size = new System.Drawing.Size(98, 20);
             this.rdbMuySeguro.TabIndex = 34;
             this.rdbMuySeguro.TabStop = true;
             this.rdbMuySeguro.Text = "Muy Seguro";
@@ -137,10 +133,9 @@
             // 
             this.rbdMuyInseguro.AutoSize = true;
             this.rbdMuyInseguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbdMuyInseguro.Location = new System.Drawing.Point(3, 98);
-            this.rbdMuyInseguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rbdMuyInseguro.Location = new System.Drawing.Point(2, 80);
             this.rbdMuyInseguro.Name = "rbdMuyInseguro";
-            this.rbdMuyInseguro.Size = new System.Drawing.Size(130, 24);
+            this.rbdMuyInseguro.Size = new System.Drawing.Size(106, 20);
             this.rbdMuyInseguro.TabIndex = 37;
             this.rbdMuyInseguro.TabStop = true;
             this.rbdMuyInseguro.Text = "Muy Inseguro";
@@ -150,10 +145,9 @@
             // 
             this.rdbInseguro.AutoSize = true;
             this.rdbInseguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbInseguro.Location = new System.Drawing.Point(3, 69);
-            this.rdbInseguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbInseguro.Location = new System.Drawing.Point(2, 56);
             this.rdbInseguro.Name = "rdbInseguro";
-            this.rdbInseguro.Size = new System.Drawing.Size(94, 24);
+            this.rdbInseguro.Size = new System.Drawing.Size(78, 20);
             this.rdbInseguro.TabIndex = 36;
             this.rdbInseguro.TabStop = true;
             this.rdbInseguro.Text = "Inseguro";
@@ -164,10 +158,9 @@
             // 
             this.rdbSeguro.AutoSize = true;
             this.rdbSeguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbSeguro.Location = new System.Drawing.Point(3, 39);
-            this.rdbSeguro.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbSeguro.Location = new System.Drawing.Point(2, 32);
             this.rdbSeguro.Name = "rdbSeguro";
-            this.rdbSeguro.Size = new System.Drawing.Size(83, 24);
+            this.rdbSeguro.Size = new System.Drawing.Size(70, 20);
             this.rdbSeguro.TabIndex = 35;
             this.rdbSeguro.TabStop = true;
             this.rdbSeguro.Text = "Seguro";
@@ -178,33 +171,31 @@
             // 
             this.lblSeguridadEnSuMunicipio.AutoSize = true;
             this.lblSeguridadEnSuMunicipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeguridadEnSuMunicipio.Location = new System.Drawing.Point(9, 290);
-            this.lblSeguridadEnSuMunicipio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSeguridadEnSuMunicipio.Location = new System.Drawing.Point(7, 236);
             this.lblSeguridadEnSuMunicipio.Name = "lblSeguridadEnSuMunicipio";
-            this.lblSeguridadEnSuMunicipio.Size = new System.Drawing.Size(454, 24);
+            this.lblSeguridadEnSuMunicipio.Size = new System.Drawing.Size(352, 18);
             this.lblSeguridadEnSuMunicipio.TabIndex = 44;
             this.lblSeguridadEnSuMunicipio.Text = "16. En el último año, la seguridad en su Municipio ha";
             // 
             // pnlPreguntaDieciseis
             // 
+            this.pnlPreguntaDieciseis.BackColor = System.Drawing.Color.White;
             this.pnlPreguntaDieciseis.Controls.Add(this.rdbMuyBueno);
             this.pnlPreguntaDieciseis.Controls.Add(this.rdbMuyMalo);
             this.pnlPreguntaDieciseis.Controls.Add(this.rdbBueno);
             this.pnlPreguntaDieciseis.Controls.Add(this.rdbMalo);
-            this.pnlPreguntaDieciseis.Location = new System.Drawing.Point(26, 318);
-            this.pnlPreguntaDieciseis.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlPreguntaDieciseis.Location = new System.Drawing.Point(20, 258);
             this.pnlPreguntaDieciseis.Name = "pnlPreguntaDieciseis";
-            this.pnlPreguntaDieciseis.Size = new System.Drawing.Size(141, 132);
+            this.pnlPreguntaDieciseis.Size = new System.Drawing.Size(106, 107);
             this.pnlPreguntaDieciseis.TabIndex = 44;
             // 
             // rdbMuyBueno
             // 
             this.rdbMuyBueno.AutoSize = true;
             this.rdbMuyBueno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMuyBueno.Location = new System.Drawing.Point(2, 11);
-            this.rdbMuyBueno.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMuyBueno.Location = new System.Drawing.Point(2, 9);
             this.rdbMuyBueno.Name = "rdbMuyBueno";
-            this.rdbMuyBueno.Size = new System.Drawing.Size(114, 24);
+            this.rdbMuyBueno.Size = new System.Drawing.Size(93, 20);
             this.rdbMuyBueno.TabIndex = 34;
             this.rdbMuyBueno.TabStop = true;
             this.rdbMuyBueno.Text = "Muy Bueno";
@@ -214,10 +205,9 @@
             // 
             this.rdbMuyMalo.AutoSize = true;
             this.rdbMuyMalo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMuyMalo.Location = new System.Drawing.Point(3, 97);
-            this.rdbMuyMalo.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMuyMalo.Location = new System.Drawing.Point(2, 79);
             this.rdbMuyMalo.Name = "rdbMuyMalo";
-            this.rdbMuyMalo.Size = new System.Drawing.Size(102, 24);
+            this.rdbMuyMalo.Size = new System.Drawing.Size(84, 20);
             this.rdbMuyMalo.TabIndex = 37;
             this.rdbMuyMalo.TabStop = true;
             this.rdbMuyMalo.Text = "Muy Malo";
@@ -227,10 +217,9 @@
             // 
             this.rdbBueno.AutoSize = true;
             this.rdbBueno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbBueno.Location = new System.Drawing.Point(2, 37);
-            this.rdbBueno.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbBueno.Location = new System.Drawing.Point(2, 30);
             this.rdbBueno.Name = "rdbBueno";
-            this.rdbBueno.Size = new System.Drawing.Size(78, 24);
+            this.rdbBueno.Size = new System.Drawing.Size(65, 20);
             this.rdbBueno.TabIndex = 36;
             this.rdbBueno.TabStop = true;
             this.rdbBueno.Text = "Bueno";
@@ -240,10 +229,9 @@
             // 
             this.rdbMalo.AutoSize = true;
             this.rdbMalo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMalo.Location = new System.Drawing.Point(2, 66);
-            this.rdbMalo.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMalo.Location = new System.Drawing.Point(2, 54);
             this.rdbMalo.Name = "rdbMalo";
-            this.rdbMalo.Size = new System.Drawing.Size(66, 24);
+            this.rdbMalo.Size = new System.Drawing.Size(56, 20);
             this.rdbMalo.TabIndex = 35;
             this.rdbMalo.TabStop = true;
             this.rdbMalo.Text = "Malo";
@@ -253,33 +241,31 @@
             // 
             this.lblPreguntaDiecisiete.AutoSize = true;
             this.lblPreguntaDiecisiete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPreguntaDiecisiete.Location = new System.Drawing.Point(9, 463);
-            this.lblPreguntaDiecisiete.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPreguntaDiecisiete.Location = new System.Drawing.Point(7, 376);
             this.lblPreguntaDiecisiete.Name = "lblPreguntaDiecisiete";
-            this.lblPreguntaDiecisiete.Size = new System.Drawing.Size(386, 24);
+            this.lblPreguntaDiecisiete.Size = new System.Drawing.Size(304, 18);
             this.lblPreguntaDiecisiete.TabIndex = 45;
             this.lblPreguntaDiecisiete.Text = "17. ¿Que tan seguro se siente en su Estado?";
             // 
             // pnlPreguntaDiecisiete
             // 
+            this.pnlPreguntaDiecisiete.BackColor = System.Drawing.Color.White;
             this.pnlPreguntaDiecisiete.Controls.Add(this.rdbMuySeguro1);
             this.pnlPreguntaDiecisiete.Controls.Add(this.rdbMuyInseguro1);
             this.pnlPreguntaDiecisiete.Controls.Add(this.rdbInseguro1);
             this.pnlPreguntaDiecisiete.Controls.Add(this.rdbSeguro1);
-            this.pnlPreguntaDiecisiete.Location = new System.Drawing.Point(26, 495);
-            this.pnlPreguntaDiecisiete.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlPreguntaDiecisiete.Location = new System.Drawing.Point(20, 402);
             this.pnlPreguntaDiecisiete.Name = "pnlPreguntaDiecisiete";
-            this.pnlPreguntaDiecisiete.Size = new System.Drawing.Size(464, 46);
+            this.pnlPreguntaDiecisiete.Size = new System.Drawing.Size(348, 37);
             this.pnlPreguntaDiecisiete.TabIndex = 44;
             // 
             // rdbMuySeguro1
             // 
             this.rdbMuySeguro1.AutoSize = true;
             this.rdbMuySeguro1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMuySeguro1.Location = new System.Drawing.Point(4, 11);
-            this.rdbMuySeguro1.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMuySeguro1.Location = new System.Drawing.Point(3, 9);
             this.rdbMuySeguro1.Name = "rdbMuySeguro1";
-            this.rdbMuySeguro1.Size = new System.Drawing.Size(119, 24);
+            this.rdbMuySeguro1.Size = new System.Drawing.Size(98, 20);
             this.rdbMuySeguro1.TabIndex = 34;
             this.rdbMuySeguro1.TabStop = true;
             this.rdbMuySeguro1.Text = "Muy Seguro";
@@ -289,10 +275,9 @@
             // 
             this.rdbMuyInseguro1.AutoSize = true;
             this.rdbMuyInseguro1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbMuyInseguro1.Location = new System.Drawing.Point(324, 11);
-            this.rdbMuyInseguro1.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbMuyInseguro1.Location = new System.Drawing.Point(243, 9);
             this.rdbMuyInseguro1.Name = "rdbMuyInseguro1";
-            this.rdbMuyInseguro1.Size = new System.Drawing.Size(130, 24);
+            this.rdbMuyInseguro1.Size = new System.Drawing.Size(106, 20);
             this.rdbMuyInseguro1.TabIndex = 37;
             this.rdbMuyInseguro1.TabStop = true;
             this.rdbMuyInseguro1.Text = "Muy Inseguro";
@@ -302,10 +287,9 @@
             // 
             this.rdbInseguro1.AutoSize = true;
             this.rdbInseguro1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbInseguro1.Location = new System.Drawing.Point(222, 11);
-            this.rdbInseguro1.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbInseguro1.Location = new System.Drawing.Point(166, 9);
             this.rdbInseguro1.Name = "rdbInseguro1";
-            this.rdbInseguro1.Size = new System.Drawing.Size(94, 24);
+            this.rdbInseguro1.Size = new System.Drawing.Size(78, 20);
             this.rdbInseguro1.TabIndex = 36;
             this.rdbInseguro1.TabStop = true;
             this.rdbInseguro1.Text = "Inseguro";
@@ -315,10 +299,9 @@
             // 
             this.rdbSeguro1.AutoSize = true;
             this.rdbSeguro1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbSeguro1.Location = new System.Drawing.Point(132, 11);
-            this.rdbSeguro1.Margin = new System.Windows.Forms.Padding(4);
+            this.rdbSeguro1.Location = new System.Drawing.Point(99, 9);
             this.rdbSeguro1.Name = "rdbSeguro1";
-            this.rdbSeguro1.Size = new System.Drawing.Size(83, 24);
+            this.rdbSeguro1.Size = new System.Drawing.Size(70, 20);
             this.rdbSeguro1.TabIndex = 35;
             this.rdbSeguro1.TabStop = true;
             this.rdbSeguro1.Text = "Seguro";
@@ -326,10 +309,9 @@
             // 
             // btnAtras
             // 
-            this.btnAtras.Location = new System.Drawing.Point(808, 498);
-            this.btnAtras.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAtras.Location = new System.Drawing.Point(606, 405);
             this.btnAtras.Name = "btnAtras";
-            this.btnAtras.Size = new System.Drawing.Size(119, 43);
+            this.btnAtras.Size = new System.Drawing.Size(89, 35);
             this.btnAtras.TabIndex = 50;
             this.btnAtras.Text = "Atras";
             this.btnAtras.UseVisualStyleBackColor = true;
@@ -337,20 +319,20 @@
             // 
             // btnSiguiente
             // 
-            this.btnSiguiente.Location = new System.Drawing.Point(935, 498);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSiguiente.Location = new System.Drawing.Point(701, 405);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(119, 43);
+            this.btnSiguiente.Size = new System.Drawing.Size(89, 35);
             this.btnSiguiente.TabIndex = 51;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
-            // FrmCinco
+            // frmVentanaCinco
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.pnlPreguntaDiecisiete);
@@ -363,8 +345,10 @@
             this.Controls.Add(this.prbAumento);
             this.Controls.Add(this.dttFormaCinco);
             this.Controls.Add(this.pctFormaCinco);
-            this.Name = "FrmCinco";
-            this.Text = "FrmCinco";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "frmVentanaCinco";
+            this.Text = "Formulario de Inseguridad";
             ((System.ComponentModel.ISupportInitialize)(this.pctFormaCinco)).EndInit();
             this.pnlPreguntaQuince.ResumeLayout(false);
             this.pnlPreguntaQuince.PerformLayout();

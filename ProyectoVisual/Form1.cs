@@ -54,14 +54,19 @@ namespace ProyectoVisual
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            FrmDos frmDos = new FrmDos();
+            frmVentanaDos frmDos = new frmVentanaDos();
             frmDos.Show();
 
-            prbAumento.Increment(20);
+            prbAumento.Increment(16);
 
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblGenero_Click(object sender, EventArgs e)
         {
 
         }

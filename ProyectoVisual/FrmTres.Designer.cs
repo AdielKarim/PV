@@ -1,6 +1,6 @@
 ﻿namespace ProyectoVisual
 {
-    partial class FrmTres
+    partial class frmVentanaTres
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVentanaTres));
             this.lblAgresoroDelincuente = new System.Windows.Forms.Label();
             this.rdbDesconocido = new System.Windows.Forms.RadioButton();
             this.rdbConocido = new System.Windows.Forms.RadioButton();
@@ -126,6 +127,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.rdbVecino);
             this.panel1.Controls.Add(this.rdbAmigo);
             this.panel1.Controls.Add(this.rdbPariente);
@@ -202,6 +204,7 @@
             // 
             // pnlSiNo
             // 
+            this.pnlSiNo.BackColor = System.Drawing.Color.White;
             this.pnlSiNo.Controls.Add(this.rdbNo);
             this.pnlSiNo.Controls.Add(this.rdbSi);
             this.pnlSiNo.Location = new System.Drawing.Point(19, 317);
@@ -296,6 +299,7 @@
             this.prbAumento.Name = "prbAumento";
             this.prbAumento.Size = new System.Drawing.Size(282, 23);
             this.prbAumento.TabIndex = 33;
+            this.prbAumento.Click += new System.EventHandler(this.prbAumento_Click);
             // 
             // pictureBox1
             // 
@@ -308,10 +312,11 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // FrmTres
+            // frmVentanaTres
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.prbAumento);
             this.Controls.Add(this.Siguientes);
@@ -327,8 +332,9 @@
             this.Controls.Add(this.lblSeleccionaEstado);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblAgresoroDelincuente);
-            this.Name = "FrmTres";
-            this.Text = "FrmTres";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "frmVentanaTres";
+            this.Text = "Formulario de Inseguridad";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnlSiNo.ResumeLayout(false);

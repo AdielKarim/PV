@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoVisual
 {
-    public partial class FrmDos : Form
+    public partial class frmVentanaDos : Form
     {
-        public FrmDos()
+        public frmVentanaDos()
         {
             InitializeComponent();
         }
@@ -48,10 +48,15 @@ namespace ProyectoVisual
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            FrmTres frmTres = new FrmTres();
+            frmVentanaTres frmTres = new frmVentanaTres();
             frmTres.Show();
 
-            prbAumento.Increment(40);
+            prbAumento.Increment(32);
+        }
+
+        private void prbAumento_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

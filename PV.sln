@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVAPVKarim", "LVAPVKarim\LVAPVKarim.csproj", "{B211947A-C57F-4DE2-828B-FDFB1EC60054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoVisual", "ProyectoVisual\ProyectoVisual.csproj", "{90D3854C-EF86-4905-9B82-60281E373EA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaforoDelictivo", "ProyectoVisual\SemaforoDelictivo.csproj", "{90D3854C-EF86-4905-9B82-60281E373EA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
