@@ -44,7 +44,7 @@
             this.pnlVictima = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblFechadeHoy = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.lblEdadDeLaVictima = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.rdbMasDeSesentaAños = new System.Windows.Forms.RadioButton();
@@ -245,12 +245,12 @@
             this.lblFechadeHoy.TabIndex = 27;
             this.lblFechadeHoy.Text = "Fecha de Hoy:";
             // 
-            // dateTimePicker1
+            // dtpFecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(580, 39);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(208, 20);
-            this.dateTimePicker1.TabIndex = 26;
+            this.dtpFecha.Location = new System.Drawing.Point(580, 39);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(208, 20);
+            this.dtpFecha.TabIndex = 26;
             // 
             // lblEdadDeLaVictima
             // 
@@ -353,7 +353,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblEdadDeLaVictima);
             this.Controls.Add(this.lblFechadeHoy);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pnlVictima);
             this.Controls.Add(this.pnlAñoQueSeCometioDelito);
@@ -395,7 +395,7 @@
         private System.Windows.Forms.Panel pnlVictima;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblFechadeHoy;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Label lblEdadDeLaVictima;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RadioButton rdbMasDeSesentaAños;

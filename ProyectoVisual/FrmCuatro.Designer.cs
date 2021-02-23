@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVentanaCuatro));
             this.lblAuxilioALaPolicia = new System.Windows.Forms.Label();
             this.lblFechadeHoy = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.lblCalificacion = new System.Windows.Forms.Label();
             this.rdbMuyBien = new System.Windows.Forms.RadioButton();
             this.rdbBien = new System.Windows.Forms.RadioButton();
@@ -77,12 +77,12 @@
             this.lblFechadeHoy.TabIndex = 32;
             this.lblFechadeHoy.Text = "Fecha de Hoy:";
             // 
-            // dateTimePicker1
+            // dtpFecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(580, 39);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(208, 20);
-            this.dateTimePicker1.TabIndex = 31;
+            this.dtpFecha.Location = new System.Drawing.Point(580, 39);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(208, 20);
+            this.dtpFecha.TabIndex = 31;
             // 
             // lblCalificacion
             // 
@@ -335,7 +335,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblCalificacion);
             this.Controls.Add(this.lblFechadeHoy);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblAuxilioALaPolicia);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -357,7 +357,7 @@
         private System.Windows.Forms.Label lblAuxilioALaPolicia;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblFechadeHoy;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Label lblCalificacion;
         private System.Windows.Forms.RadioButton rdbMuyBien;
         private System.Windows.Forms.RadioButton rdbBien;

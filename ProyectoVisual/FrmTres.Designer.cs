@@ -45,7 +45,7 @@
             this.lblOtraAutoridad = new System.Windows.Forms.Label();
             this.txtRespuestaAutoridad = new System.Windows.Forms.TextBox();
             this.lblFechadeHoy = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.btnAtras = new System.Windows.Forms.Button();
             this.Siguientes = new System.Windows.Forms.Button();
             this.prbAumento = new System.Windows.Forms.ProgressBar();
@@ -266,12 +266,12 @@
             this.lblFechadeHoy.TabIndex = 30;
             this.lblFechadeHoy.Text = "Fecha de Hoy:";
             // 
-            // dateTimePicker1
+            // dtpFecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(580, 41);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(208, 20);
-            this.dateTimePicker1.TabIndex = 29;
+            this.dtpFecha.Location = new System.Drawing.Point(580, 41);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(208, 20);
+            this.dtpFecha.TabIndex = 29;
             // 
             // btnAtras
             // 
@@ -322,7 +322,7 @@
             this.Controls.Add(this.Siguientes);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.lblFechadeHoy);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtRespuestaAutoridad);
             this.Controls.Add(this.lblOtraAutoridad);
@@ -364,7 +364,7 @@
         private System.Windows.Forms.TextBox txtRespuestaAutoridad;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblFechadeHoy;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Button btnAtras;
         private System.Windows.Forms.Button Siguientes;
         private System.Windows.Forms.ProgressBar prbAumento;

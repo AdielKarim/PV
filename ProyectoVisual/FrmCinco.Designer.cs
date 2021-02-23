@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVentanaCinco));
             this.pctFormaCinco = new System.Windows.Forms.PictureBox();
-            this.dttFormaCinco = new System.Windows.Forms.DateTimePicker();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.prbAumento = new System.Windows.Forms.ProgressBar();
             this.lblFechadeHoy = new System.Windows.Forms.Label();
             this.lblQueTanSeguroSeSiente = new System.Windows.Forms.Label();
@@ -69,12 +69,12 @@
             this.pctFormaCinco.TabIndex = 30;
             this.pctFormaCinco.TabStop = false;
             // 
-            // dttFormaCinco
+            // dtpFecha
             // 
-            this.dttFormaCinco.Location = new System.Drawing.Point(584, 40);
-            this.dttFormaCinco.Name = "dttFormaCinco";
-            this.dttFormaCinco.Size = new System.Drawing.Size(208, 20);
-            this.dttFormaCinco.TabIndex = 32;
+            this.dtpFecha.Location = new System.Drawing.Point(584, 40);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(208, 20);
+            this.dtpFecha.TabIndex = 32;
             // 
             // prbAumento
             // 
@@ -343,7 +343,7 @@
             this.Controls.Add(this.lblQueTanSeguroSeSiente);
             this.Controls.Add(this.lblFechadeHoy);
             this.Controls.Add(this.prbAumento);
-            this.Controls.Add(this.dttFormaCinco);
+            this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.pctFormaCinco);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -364,7 +364,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pctFormaCinco;
-        private System.Windows.Forms.DateTimePicker dttFormaCinco;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.ProgressBar prbAumento;
         private System.Windows.Forms.Label lblFechadeHoy;
         private System.Windows.Forms.Label lblQueTanSeguroSeSiente;
