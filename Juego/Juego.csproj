@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Personaje.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -85,6 +86,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\0f05aa6517e9acc80aefcfa701845fc5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga negro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga azul.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

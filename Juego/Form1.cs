@@ -7,10 +7,23 @@ namespace Juego
     public partial class frmJuego : Form
     {
         int velocidad;
+        Personaje rojo;
+        //Personaje azul;
+        //Personaje amarillo;
+        //Personaje blanco;
+        //Personaje verde;
         public frmJuego()
         {
             InitializeComponent();
             velocidad = 10;
+            rojo = new Personaje();
+            rojo.Velocidad = 2;
+            rojo.AddVelocidad(-1);
+            //azul = new Personaje("azul", 100, 10);
+            //amarillo = new Personaje("amarillo", 50, 5);
+            //blanco = new Personaje("blanco", 75, 2);
+            //verde = new Personaje("verde",20, 10, new Point(10, 10), new Size(50, 50));
+            //MessageBox.Show(verde.ToString());
         }
 
         private void btnIzquierda_Click(object sender, EventArgs e)
@@ -59,5 +72,25 @@ namespace Juego
         }
 
 
+
+        private void frmJuego_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 'A'|| e.KeyChar == 'a')
+            {
+               rojo
+            }
+        }
+        private void izquierda()
+        {
+            if (pctPlayer.Location.X - velocidad > 0)
+            {
+                pctPlayer.Location = new Point(pctPlayer.Location.X - velocidad, pctPlayer.Location.Y);
+            }
+        }
+
+        private void frmJuego_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
