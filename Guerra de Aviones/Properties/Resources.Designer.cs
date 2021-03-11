@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Juego.Properties {
+namespace Guerra_de_Aviones.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Juego.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Juego.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Guerra_de_Aviones.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace Juego.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _0f05aa6517e9acc80aefcfa701845fc5 {
+        internal static System.Drawing.Bitmap WhatsApp_Image_2021_03_11_at_11_42_31_AM {
             get {
-                object obj = ResourceManager.GetObject("0f05aa6517e9acc80aefcfa701845fc5", resourceCulture);
+                object obj = ResourceManager.GetObject("WhatsApp Image 2021-03-11 at 11.42.31 AM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Juego.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap descarga {
+        internal static System.Drawing.Bitmap WhatsApp_Image_2021_03_11_at_11_44_50_AM {
             get {
-                object obj = ResourceManager.GetObject("descarga", resourceCulture);
+                object obj = ResourceManager.GetObject("WhatsApp Image 2021-03-11 at 11.44.50 AM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Juego.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap descarga_azul {
+        internal static System.Drawing.Bitmap WhatsApp_Image_2021_03_11_at_11_45_10_AM {
             get {
-                object obj = ResourceManager.GetObject("descarga azul", resourceCulture);
+                object obj = ResourceManager.GetObject("WhatsApp Image 2021-03-11 at 11.45.10 AM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,29 +93,9 @@ namespace Juego.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap descarga_negro {
+        internal static System.Drawing.Bitmap WhatsApp_Image_2021_03_11_at_11_58_22_AM {
             get {
-                object obj = ResourceManager.GetObject("descarga negro", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap descarga_red {
-            get {
-                object obj = ResourceManager.GetObject("descarga red", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap images {
-            get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
+                object obj = ResourceManager.GetObject("WhatsApp Image 2021-03-11 at 11.58.22 AM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

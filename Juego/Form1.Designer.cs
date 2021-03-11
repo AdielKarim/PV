@@ -28,24 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnDerecha = new System.Windows.Forms.Button();
             this.btnIzquierda = new System.Windows.Forms.Button();
             this.btnArriba = new System.Windows.Forms.Button();
             this.btnAbajo = new System.Windows.Forms.Button();
             this.trcVelocidad = new System.Windows.Forms.TrackBar();
             this.grpLevel = new System.Windows.Forms.GroupBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tmrPlayer = new System.Windows.Forms.Timer(this.components);
+            this.pctEnemigo = new System.Windows.Forms.PictureBox();
             this.pctPlayer = new System.Windows.Forms.PictureBox();
-            this.pctEnemy = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.trcVelocidad)).BeginInit();
             this.grpLevel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctEnemigo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctPlayer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctEnemy)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDerecha
@@ -100,66 +96,36 @@
             // 
             // grpLevel
             // 
-            this.grpLevel.Controls.Add(this.pictureBox3);
-            this.grpLevel.Controls.Add(this.pictureBox2);
-            this.grpLevel.Controls.Add(this.pictureBox1);
+            this.grpLevel.Controls.Add(this.pctEnemigo);
             this.grpLevel.Controls.Add(this.pctPlayer);
-            this.grpLevel.Controls.Add(this.pctEnemy);
             this.grpLevel.Location = new System.Drawing.Point(12, 12);
             this.grpLevel.Name = "grpLevel";
             this.grpLevel.Size = new System.Drawing.Size(686, 620);
             this.grpLevel.TabIndex = 8;
             this.grpLevel.TabStop = false;
             // 
-            // pictureBox3
+            // tmrPlayer
             // 
-            this.pictureBox3.Image = global::Juego.Properties.Resources.descarga_azul;
-            this.pictureBox3.Location = new System.Drawing.Point(285, 369);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(131, 109);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
+            this.tmrPlayer.Enabled = true;
+            this.tmrPlayer.Tick += new System.EventHandler(this.tmrPlayer_Tick);
             // 
-            // pictureBox2
+            // pctEnemigo
             // 
-            this.pictureBox2.Image = global::Juego.Properties.Resources.descarga_red;
-            this.pictureBox2.Location = new System.Drawing.Point(351, 40);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(131, 109);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Juego.Properties.Resources.descarga_negro;
-            this.pictureBox1.Location = new System.Drawing.Point(94, 223);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(131, 109);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.pctEnemigo.Image = global::Juego.Properties.Resources.images;
+            this.pctEnemigo.Location = new System.Drawing.Point(422, 165);
+            this.pctEnemigo.Name = "pctEnemigo";
+            this.pctEnemigo.Size = new System.Drawing.Size(100, 50);
+            this.pctEnemigo.TabIndex = 1;
+            this.pctEnemigo.TabStop = false;
             // 
             // pctPlayer
             // 
             this.pctPlayer.Image = global::Juego.Properties.Resources.descarga;
-            this.pctPlayer.Location = new System.Drawing.Point(145, 57);
+            this.pctPlayer.Location = new System.Drawing.Point(58, 52);
             this.pctPlayer.Name = "pctPlayer";
             this.pctPlayer.Size = new System.Drawing.Size(131, 109);
-            this.pctPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctPlayer.TabIndex = 0;
             this.pctPlayer.TabStop = false;
-            // 
-            // pctEnemy
-            // 
-            this.pctEnemy.Image = global::Juego.Properties.Resources._0f05aa6517e9acc80aefcfa701845fc5;
-            this.pctEnemy.Location = new System.Drawing.Point(415, 223);
-            this.pctEnemy.Name = "pctEnemy";
-            this.pctEnemy.Size = new System.Drawing.Size(139, 109);
-            this.pctEnemy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctEnemy.TabIndex = 7;
-            this.pctEnemy.TabStop = false;
             // 
             // frmJuego
             // 
@@ -175,15 +141,13 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.Name = "frmJuego";
+            this.Text = "Juego";
             this.Load += new System.EventHandler(this.frmJuego_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmJuego_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.trcVelocidad)).EndInit();
             this.grpLevel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctEnemigo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctPlayer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctEnemy)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,11 +161,9 @@
         private System.Windows.Forms.Button btnArriba;
         private System.Windows.Forms.Button btnAbajo;
         private System.Windows.Forms.TrackBar trcVelocidad;
-        private System.Windows.Forms.PictureBox pctEnemy;
         private System.Windows.Forms.GroupBox grpLevel;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer tmrPlayer;
+        private System.Windows.Forms.PictureBox pctEnemigo;
     }
 }
 

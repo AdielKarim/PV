@@ -7,7 +7,9 @@ namespace Juego
     public partial class frmJuego : Form
     {
         int velocidad;
-        Personaje rojo;
+        int positionFrame;
+        Personaje Link;
+        Personaje Enemigo;
         //Personaje azul;
         //Personaje amarillo;
         //Personaje blanco;
@@ -16,9 +18,8 @@ namespace Juego
         {
             InitializeComponent();
             velocidad = 10;
-            rojo = new Personaje();
-            rojo.Velocidad = 2;
-            rojo.AddVelocidad(-1);
+            positionFrame = 0;
+            //rojo = new Personaje();
             //azul = new Personaje("azul", 100, 10);
             //amarillo = new Personaje("amarillo", 50, 5);
             //blanco = new Personaje("blanco", 75, 2);
@@ -75,22 +76,35 @@ namespace Juego
 
         private void frmJuego_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == 'A'|| e.KeyChar == 'a')
-            {
-               rojo
-            }
+            Link.Mover(e.KeyChar);
+            pctPlayer.Location = Link.Posicion;
+
         }
         private void izquierda()
         {
-            if (pctPlayer.Location.X - velocidad > 0)
-            {
-                pctPlayer.Location = new Point(pctPlayer.Location.X - velocidad, pctPlayer.Location.Y);
-            }
+            
         }
 
         private void frmJuego_Load(object sender, EventArgs e)
         {
+            Link = new Personaje();
+            pctPlayer.Location = Link.Posicion;
+            pctPlayer.Size = Link.Tamanio;
+            pctPlayer.Image = Link.GetFrame(0);
+           
+        }
 
+        private void tmrPlayer_Tick(object sender, EventArgs e)
+        {
+            if (positionFrame <40 )
+            {
+                pctPlayer.Image = Link.GetFrame(positionFrame);
+                positionFrame++;
+            }
+            else
+            {
+                positionFrame = 0;
+            }
         }
     }
 }

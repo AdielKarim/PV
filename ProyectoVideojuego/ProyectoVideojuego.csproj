@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB978282-CE4C-4AB4-BBD8-1A89609C8381}</ProjectGuid>
+    <ProjectGuid>{D9B7685F-7B8D-457F-9026-B364D1E343B1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Juego</RootNamespace>
-    <AssemblyName>Juego</AssemblyName>
+    <RootNamespace>ProyectoVideojuego</RootNamespace>
+    <AssemblyName>ProyectoVideojuego</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,7 +52,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Personaje.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -82,22 +81,46 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\descarga.jpg" />
+    <None Include="Resources\mario_emoticon_by_tylerjbeck-d56z8u9.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\0f05aa6517e9acc80aefcfa701845fc5.jpg" />
+    <None Include="Resources\tumblr_mgmysuSVcr1rby4vso1_400.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\descarga red.jpg" />
+    <None Include="Resources\Ladrillo.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\descarga negro.jpg" />
+    <None Include="Resources\Carretera.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\descarga azul.jpg" />
+    <None Include="Resources\3fbc2759-4a7a-491f-929b-d48165aaa9f3.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images.png" />
+    <None Include="Resources\fdd1c0fa-abd3-43f0-a791-03b647db018c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carretera %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carretera %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carro2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\803-8030690_aston-martin-one77-17-top-down-car-sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\803-8030690_aston-martin-one77-17-top-down-car-sprite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\803-8030690_aston-martin-one77-17-top-down-car-sprite %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
