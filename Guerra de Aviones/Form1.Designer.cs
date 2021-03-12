@@ -36,15 +36,17 @@
             this.pctFondo = new System.Windows.Forms.PictureBox();
             this.lblIniciar = new System.Windows.Forms.Label();
             this.tmrTiempojuego = new System.Windows.Forms.Timer(this.components);
+            this.pctMisilDos = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pctMisil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctAvion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctFondo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctMisilDos)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIntentos
             // 
             this.lblIntentos.AutoSize = true;
-            this.lblIntentos.Location = new System.Drawing.Point(735, 39);
+            this.lblIntentos.Location = new System.Drawing.Point(735, 38);
             this.lblIntentos.Name = "lblIntentos";
             this.lblIntentos.Size = new System.Drawing.Size(45, 13);
             this.lblIntentos.TabIndex = 3;
@@ -63,7 +65,7 @@
             // 
             this.pctMisil.BackColor = System.Drawing.Color.Transparent;
             this.pctMisil.Image = global::Guerra_de_Aviones.Properties.Resources.WhatsApp_Image_2021_03_11_at_11_45_10_AM;
-            this.pctMisil.Location = new System.Drawing.Point(342, 12);
+            this.pctMisil.Location = new System.Drawing.Point(476, 12);
             this.pctMisil.Name = "pctMisil";
             this.pctMisil.Size = new System.Drawing.Size(100, 103);
             this.pctMisil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -106,11 +108,23 @@
             this.tmrTiempojuego.Interval = 60;
             this.tmrTiempojuego.Tick += new System.EventHandler(this.tmrTiempojuego_Tick);
             // 
+            // pctMisilDos
+            // 
+            this.pctMisilDos.BackColor = System.Drawing.Color.Transparent;
+            this.pctMisilDos.Image = global::Guerra_de_Aviones.Properties.Resources.WhatsApp_Image_2021_03_11_at_11_45_10_AM;
+            this.pctMisilDos.Location = new System.Drawing.Point(211, 12);
+            this.pctMisilDos.Name = "pctMisilDos";
+            this.pctMisilDos.Size = new System.Drawing.Size(100, 103);
+            this.pctMisilDos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctMisilDos.TabIndex = 6;
+            this.pctMisilDos.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pctMisilDos);
             this.Controls.Add(this.lblIniciar);
             this.Controls.Add(this.lblPuntaje);
             this.Controls.Add(this.lblIntentos);
@@ -122,6 +136,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctMisil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctAvion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctFondo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctMisilDos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,6 +151,7 @@
         private System.Windows.Forms.Label lblPuntaje;
         private System.Windows.Forms.Label lblIniciar;
         private System.Windows.Forms.Timer tmrTiempojuego;
+        private System.Windows.Forms.PictureBox pctMisilDos;
     }
 }
 
