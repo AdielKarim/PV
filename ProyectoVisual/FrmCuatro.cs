@@ -39,9 +39,6 @@ namespace ProyectoVisual
             this.Close();
         }
 
-        private void prbAumento_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

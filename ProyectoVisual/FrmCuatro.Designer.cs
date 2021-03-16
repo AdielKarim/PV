@@ -160,7 +160,7 @@
             this.prbAumento.Name = "prbAumento";
             this.prbAumento.Size = new System.Drawing.Size(282, 23);
             this.prbAumento.TabIndex = 39;
-            this.prbAumento.Click += new System.EventHandler(this.prbAumento_Click);
+          
             // 
             // lblSinoPidioAuxilio
             // 

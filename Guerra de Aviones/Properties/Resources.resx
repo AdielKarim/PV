@@ -118,16 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playampaposde-uygulamalar-5bd6a480df0cd6.8716998515407934729136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playampaposde-uygulamalar-5bd6a480df0cd6.8716998515407934729136.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rayito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rayito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defuego2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defuego2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="llamas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\llamas3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Llamas-fuego1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Llamas-fuego1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pared-de-ladrillo-del-pixel-83695317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pared-de-ladrillo-del-pixel-83695317.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="llamas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\llamas2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avionguerra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avionguerra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avionguerra1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avionguerra1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WhatsApp Image 2021-03-11 at 11.45.10 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2021-03-11 at 11.45.10 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="470-4707092_bandera-de-meta-icono-png-download-racing-flags" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\470-4707092_bandera-de-meta-icono-png-download-racing-flags.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fuego.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Llamas-fuego3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Llamas-fuego3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rayito1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rayito1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp Image 2021-03-11 at 11.58.22 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp Image 2021-03-11 at 11.58.22 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defuego1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defuego1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Llamas-fuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Llamas-fuego.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nave.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avionguerra2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avionguerra2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WhatsApp Image 2021-03-11 at 11.42.31 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2021-03-11 at 11.42.31 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="defuego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defuego.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RocaPicudaNSMBU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RocaPicudaNSMBU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WhatsApp Image 2021-03-11 at 11.44.50 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2021-03-11 at 11.44.50 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WhatsApp Image 2021-03-11 at 11.58.22 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2021-03-11 at 11.58.22 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playampaposde-uygulamalar-5bd6a480df0cd61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playampaposde-uygulamalar-5bd6a480df0cd6.87169985154079347291361.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Llamas-fuego2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Llamas-fuego2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="llamas21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\llamas21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-gray-and-blue-spacecraft-sprite-space-shuttle-story-spacecraft-2d-computer-graphics-ship-space-craft-3d-computer-graphics-symmetry-transport-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-gray-and-blue-spacecraft-sprite-space-shuttle-story-spacecraft-2d-computer-graphics-ship-space-craft-3d-computer-graphics-symmetry-transport-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="803-8030690_aston-martin-one77-17-top-down-car-sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\803-8030690_aston-martin-one77-17-top-down-car-sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Llamas-fuego4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Llamas-fuego4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

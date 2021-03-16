@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="prbVida\Maximum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -91,6 +92,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WhatsApp Image 2021-03-11 at 11.58.22 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playampaposde-uygulamalar-5bd6a480df0cd6.8716998515407934729136.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playampaposde-uygulamalar-5bd6a480df0cd6.87169985154079347291361.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-gray-and-blue-spacecraft-sprite-space-shuttle-story-spacecraft-2d-computer-graphics-ship-space-craft-3d-computer-graphics-symmetry-transport-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avionguerra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avionguerra2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\803-8030690_aston-martin-one77-17-top-down-car-sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avionguerra1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RocaPicudaNSMBU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pared-de-ladrillo-del-pixel-83695317.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rayito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rayito1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fuego.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Llamas-fuego.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Llamas-fuego1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Llamas-fuego2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\470-4707092_bandera-de-meta-icono-png-download-racing-flags.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamas21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamas3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defuego.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defuego1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defuego2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Llamas-fuego3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Llamas-fuego4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

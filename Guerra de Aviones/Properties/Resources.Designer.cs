@@ -63,6 +63,260 @@ namespace Guerra_de_Aviones.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _470_4707092_bandera_de_meta_icono_png_download_racing_flags {
+            get {
+                object obj = ResourceManager.GetObject("470-4707092_bandera-de-meta-icono-png-download-racing-flags", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _803_8030690_aston_martin_one77_17_top_down_car_sprite {
+            get {
+                object obj = ResourceManager.GetObject("803-8030690_aston-martin-one77-17-top-down-car-sprite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avionguerra {
+            get {
+                object obj = ResourceManager.GetObject("avionguerra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avionguerra1 {
+            get {
+                object obj = ResourceManager.GetObject("avionguerra1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avionguerra2 {
+            get {
+                object obj = ResourceManager.GetObject("avionguerra2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap defuego {
+            get {
+                object obj = ResourceManager.GetObject("defuego", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap defuego1 {
+            get {
+                object obj = ResourceManager.GetObject("defuego1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap defuego2 {
+            get {
+                object obj = ResourceManager.GetObject("defuego2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fuego {
+            get {
+                object obj = ResourceManager.GetObject("fuego", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_spaceshiptwo_spacecraft_sprite_spaceshipone_portab_space_war_google_playampaposde_uygulamalar_5bd6a480df0cd6_8716998515407934729136 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playa" +
+                        "mpaposde-uygulamalar-5bd6a480df0cd6.8716998515407934729136", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_spaceshiptwo_spacecraft_sprite_spaceshipone_portab_space_war_google_playampaposde_uygulamalar_5bd6a480df0cd61 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-spaceshiptwo-spacecraft-sprite-spaceshipone-portab-space-war-google-playa" +
+                        "mpaposde-uygulamalar-5bd6a480df0cd61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Llamas_fuego {
+            get {
+                object obj = ResourceManager.GetObject("Llamas-fuego", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Llamas_fuego1 {
+            get {
+                object obj = ResourceManager.GetObject("Llamas-fuego1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Llamas_fuego2 {
+            get {
+                object obj = ResourceManager.GetObject("Llamas-fuego2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Llamas_fuego3 {
+            get {
+                object obj = ResourceManager.GetObject("Llamas-fuego3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Llamas_fuego4 {
+            get {
+                object obj = ResourceManager.GetObject("Llamas-fuego4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap llamas2 {
+            get {
+                object obj = ResourceManager.GetObject("llamas2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap llamas21 {
+            get {
+                object obj = ResourceManager.GetObject("llamas21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap llamas3 {
+            get {
+                object obj = ResourceManager.GetObject("llamas3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nave {
+            get {
+                object obj = ResourceManager.GetObject("nave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pared_de_ladrillo_del_pixel_83695317 {
+            get {
+                object obj = ResourceManager.GetObject("pared-de-ladrillo-del-pixel-83695317", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_gray_and_blue_spacecraft_sprite_space_shuttle_story_spacecraft_2d_computer_graphics_ship_space_craft_3d_computer_graphics_symmetry_transport_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-gray-and-blue-spacecraft-sprite-space-shuttle-story-spacecraft-2d" +
+                        "-computer-graphics-ship-space-craft-3d-computer-graphics-symmetry-transport-thum" +
+                        "bnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rayito {
+            get {
+                object obj = ResourceManager.GetObject("rayito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rayito1 {
+            get {
+                object obj = ResourceManager.GetObject("rayito1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RocaPicudaNSMBU {
+            get {
+                object obj = ResourceManager.GetObject("RocaPicudaNSMBU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2021_03_11_at_11_42_31_AM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2021-03-11 at 11.42.31 AM", resourceCulture);
