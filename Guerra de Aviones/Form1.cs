@@ -53,16 +53,7 @@ namespace Guerra_de_Aviones
             if (e.KeyCode == Keys.Down)
             { y += 13; }
 
-            //if (pctAvion.Bounds.IntersectsWith(pctMisil.Bounds))
-            //{
-            //    MessageBox.Show("KABOOOOM!");
-            //}
-
-            //if (pctAvion.Bounds.IntersectsWith(pctMisilDos.Bounds))
-            //{
-            //    MessageBox.Show("POOOOOOF!");
-            //}
-
+           
 
 
             if (pctAvion.Bounds.IntersectsWith(pctMuroUno.Bounds))
